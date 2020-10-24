@@ -1,5 +1,12 @@
 # PRS-project_Your-Dietician
-pattern recognition systems project in National University of Singapore
+
+Your-Dietician is a project for Pattern Recognition Systems in National University of Singapore.
+The project includes BMI Calculation, Calorie Bank, Food Image Recognition, and Recipe Recommendation functions. 
+All the functions are programmed based on Python and presented on a HTML page
 
 
-The project includes diet suggestion, food recognition, calories calculation functions. 
+# Python library needed
+
+
+
+# Function display
