@@ -23,10 +23,10 @@ All the functions are programmed based on Python and presented on a HTML page
 
 # Functions display
 
-## BMI Calculation
+## 1.BMI Calculation
 
-## Calorie Bank
+## 2.Calorie Bank
 
-## Food Image Recognition
+## 3.Food Image Recognition
 
-## Recipe Recommendation
+## 4.Recipe Recommendation
