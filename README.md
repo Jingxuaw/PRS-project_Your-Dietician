@@ -9,10 +9,10 @@ All the functions are programmed based on Python and presented on a HTML page
 
 ## Team Members
 
-*Zhan Sheng 
-*Wu Jingxuan 
-*Li Kaitong 
-*Lin Danmeng
+* Zhan Sheng 
+* Wu Jingxuan 
+* Li Kaitong 
+* Lin Danmeng
 
 
 ## Python library needed
