@@ -26,7 +26,7 @@ All the functions are programmed based on Python and presented on a HTML page
 
 ## Calorie Bank
 
-### BMI E
+### BMI Estimation
 
 ### Calorie Estimation by Manual Selection
 
