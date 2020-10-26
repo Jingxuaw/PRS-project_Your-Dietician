@@ -17,33 +17,25 @@ All the functions are programmed based on Python and presented on a HTML page
 
 ## Python environment and library needed
 
-* Python environment 3.7.7
+#### Environment
+
+* Python environment        3.7.7
 
 
-* libraries:
-tensorflow
+#### Libraries:
 
-matplotlib
+pip install ...
+* tensorflow                         2.3.1
+* matplotlib                         3.2.2
+* numpy                              1.17.0
+* flask
+* easygui                            0.98.1
+* pandas                             1.0.5
+* joblib                             0.16.0
+* seaborn                            0.10.1
+* sklearn                            0.0
 
-numpy
-
-os
-
-flask
-
-easygui
-
-pandas
-
-joblib
-
-face_recognition
-
-seaborn
-
-sklearn
-
-
+* for face_recognition libaray, first pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl. Then pip install face_recognition.
 
 
 # Functions display
