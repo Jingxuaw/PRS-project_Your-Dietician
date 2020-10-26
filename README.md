@@ -15,8 +15,33 @@ All the functions are programmed based on Python and presented on a HTML page
 * Lin Danmeng
 
 
-## Python library needed
+## Python environment and library needed
 
+* Python environment 3.7.7
+
+
+* libraries:
+tensorflow
+
+matplotlib
+
+numpy
+
+os
+
+flask
+
+easygui
+
+pandas
+
+joblib
+
+face_recognition
+
+seaborn
+
+sklearn
 
 
 
