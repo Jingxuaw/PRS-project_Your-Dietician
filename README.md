@@ -39,9 +39,10 @@ pip install ...
 
 
 # Functions display
-
+Running the project on http://127.0.0.1:2020/ to reach the index page
 
 ## Calorie Bank
+
 
 ### BMI Estimation
 
