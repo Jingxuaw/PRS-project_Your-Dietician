@@ -89,18 +89,18 @@ Click Back button to retun to the Calorie Bank page.
 
 ## Recipe Recommendation
 
-* Click the image in the index page to reach this section.
+Click the image in the index page to reach this section.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recipe%20recommendation.png)
 
-* A selection box will show up. Users can select which kinds of food they want to eat and click OK button.
+A selection box will show up. Users can select which kinds of food they want to eat and click OK button.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recipe%20selection.png)
 
-* The next message box will confirm the selected items.
+The next message box will confirm the selected items.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/message%20box.png)
 
-* Click OK button to get 10 random recipe recommendations from the dataset which are related to the users' selections.
+Click OK button to get 10 random recipe recommendations from the dataset which are related to the users' selections.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recommendations.png)
