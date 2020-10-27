@@ -61,7 +61,6 @@ def bmiEstimation():
 	
 	
 
-from flask import abort, redirect
 from easygui import multchoicebox, msgbox
 import pandas as pd
 
