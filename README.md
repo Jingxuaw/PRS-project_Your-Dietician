@@ -38,8 +38,12 @@ pip install ...
 * for face_recognition libaray, first pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl. Then pip install face_recognition.
 
 
-# Functions display
-Running the project on http://127.0.0.1:2020/ to reach the index page
+# Instructions & Functions display
+Open IE Browser, go to the Tools-->Internet options-->Security-->Custom level-->Set all sub-options of Activex controls and plug-ins to "enable".
+
+Run the main.py in folder "Your Dietician".
+
+Run the project on http://127.0.0.1:2020/ to reach the index page
 
 ## Calorie Bank
 
