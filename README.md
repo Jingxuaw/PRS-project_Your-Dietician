@@ -46,18 +46,29 @@ Run the main.py in folder "Your Dietician".
 After installing the required Python lilbraries, run the project on http://127.0.0.1:2020/ to reach the index page
 
 ## Calorie Bank
-* The section includes 3 sub-sections. Click the image in the index page to view all the functions.
+The section includes 3 sub-sections. Click the image in the index page to view all the functions.
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/calorie%20bank.png)
 
-* Click each box to try the functions
+Click each box to try the functions
 ### BMI Estimation
 In this section, users can choose to input their gender, height and weight to estimate their body mass. In addition, users can upload thier face image directly and click Confirm button to get the BMI estimation. 
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/bmi%20estimation.png)
 
-Click Back button to return the Calorie Bank page
+Click Back button to return to the Calorie Bank page.
 
 ### Calorie Estimation by Manual Selection
+The system calculates the daily calories the users should take based on their age and weight.
+
+After users choose what they eat today, the system will tell them the total calorw intake and how many calories then still can ingest. 
+
+If click the Sports Recommendation button, it will recomend which sports they can do to consume the calorie intakes.
+
+Click Recalculate to empty the choosen box.
+
+Click Back button to retun to the Calorie Bank page.
+
+![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/calorie%20calculator.png)
 
 ### Food Image Recognition
 
