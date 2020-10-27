@@ -39,11 +39,15 @@ pip install ...
 
 
 # Instructions & Functions display
-Open IE Browser, go to the Tools-->Internet options-->Security-->Custom level-->Set all sub-options of Activex controls and plug-ins to "enable".
+* Unzip the 50000.csv file in YourDietician folder.
 
-Run the main.py in folder "Your Dietician".
+* Download the files from the link. Move them into the YourDietician folder.
 
-After installing the required Python lilbraries, run the project on http://127.0.0.1:2020/ to reach the index page
+* Open IE Browser, go to the Tools-->Internet options-->Security-->Custom level-->Set all sub-options of Activex controls and plug-ins to "enable".
+
+* Run the main.py in folder "Your Dietician".
+
+* After installing the required Python lilbraries, run the project on http://127.0.0.1:2020/ in IE Browser to reach the index page
 
 ## Calorie Bank
 The section includes 3 sub-sections. Click the image in the index page to view all the functions.
