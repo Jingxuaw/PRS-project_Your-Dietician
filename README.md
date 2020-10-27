@@ -47,6 +47,7 @@ After installing the required Python lilbraries, run the project on http://127.0
 
 ## Calorie Bank
 The section includes 3 sub-sections. Click the image in the index page to view all the functions.
+
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/calorie%20bank.png)
 
 Click each box to try the functions
@@ -73,6 +74,7 @@ Click Back button to retun to the Calorie Bank page.
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/calorie%20calculator.png)
 
 ### Food Image Recognition
+
 Users upload their food image to and click the Confirm button. The system will tell them what the food is.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/food%20image%20recognition.png)
@@ -80,14 +82,19 @@ Users upload their food image to and click the Confirm button. The system will t
 If click the Confirm button without uploading inmage, it will show an "Please upload an image!" alert.
 
 Click Back button to retun to the Calorie Bank page.
+
 ## Recipe Recommendation
+
 * Click the image in the index page to reach this section.
+
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recipe%20recommendation.png)
 
 * A selection box will show up. Users can select which kinds of food they want to eat and click OK button.
+
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recipe%20selection.png)
 
 * The next message box will confirm the selected items.
+
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/message%20box.png)
 
 * Click OK button to get 10 random recipe recommendations from the dataset which are related to the users' selections.
