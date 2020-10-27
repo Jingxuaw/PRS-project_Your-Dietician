@@ -46,6 +46,8 @@ Run the main.py in folder "Your Dietician".
 Run the project on http://127.0.0.1:2020/ to reach the index page
 
 ## Calorie Bank
+* The section includes 3 sub-sections. Click the image in the index page to view all the functions.
+![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/calorie%20bank.png)
 
 
 ### BMI Estimation
@@ -55,3 +57,5 @@ Run the project on http://127.0.0.1:2020/ to reach the index page
 ### Food Image Recognition
 
 ## Recipe Recommendation
+* Click the image in the index page to reach this section.
+![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/recipe%20recommendation.png)
