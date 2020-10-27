@@ -69,7 +69,7 @@ The system calculates the daily calories the users should take based on their ag
 
 After users choose what they eat today, the system will tell them the total calorw intake and how many calories then still can ingest. 
 
-If click the Sports Recommendation button, it will recomend which sports they can do to consume the calorie intakes.
+If click the Sports Recommendation button, it will recommend which sports they can do to consume the calorie intakes.
 
 Click Recalculate to empty the choosen box.
 
@@ -79,7 +79,7 @@ Click Back button to retun to the Calorie Bank page.
 
 ### Food Image Recognition
 
-Users upload their food image to and click the Confirm button. The system will tell them what the food is.
+Users upload their food image to and click the Confirm button. The system will tell them what the food is and how many calories it would be like.
 
 ![image](https://github.com/Jingxuaw/PRS-project_Your-Dietician/blob/master/food%20image%20recognition.png)
 
