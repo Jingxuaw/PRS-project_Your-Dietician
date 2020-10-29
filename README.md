@@ -15,7 +15,7 @@ All the functions are programmed based on Python and presented on a HTML page
 * Lin Danmeng
 
 
-## Python environment and library needed
+## Python environment and libraries needed
 
 #### Environment
 
