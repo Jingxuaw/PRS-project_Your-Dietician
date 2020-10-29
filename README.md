@@ -46,11 +46,13 @@ pip install ...
 
 * Open IE Browser, go to the Tools-->Internet options-->Security-->Custom level-->Set all sub-options of Activex controls and plug-ins to "enable".
 
+* Install the required libraries.
+
 * Edit the line 146 and 149 in main.py file. Update the database path as users' own path
 
 * Run the main.py in folder "Your Dietician".
 
-* After installing the required Python lilbraries, run the project on http://127.0.0.1:2020/ in IE Browser to reach the index page
+* Run the project on http://127.0.0.1:2020/ in IE Browser to reach the index page
 
 ## Calorie Bank
 The section includes 3 sub-sections. Click the image in the index page to view all the functions.
