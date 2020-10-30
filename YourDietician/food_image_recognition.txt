@@ -1,3 +1,3 @@
 Modle file food_image_recognition.hdf5 can be downloaded from below google drive link. It should be placed under the same diretory as main.py.
 
-https://drive.google.com/file/d/1-5ZW1bB1vHuD82IJeVmqykXuMQQUE__q/view?usp=sharing
+https://drive.google.com/file/d/135xoL0oNnn5rzF3Hni9_rHqUiuXNDS0j/view?usp=sharing
