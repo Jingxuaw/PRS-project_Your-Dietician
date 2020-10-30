@@ -27,7 +27,7 @@
 						<p>Upload your food image. One image only for one time.</p>
 						<form action="{{ url_for('foodImageRecognitionbyModel') }}" method="post" enctype="multipart/form-data" onsubmit="return check();">
 							<p>
-								<input type="file" name="foodurl" id="foodurl" value="Upload Image" onchange="preview(this)"  multiple="multiple" accept="image/x-png, image/jpg, image/jpeg, image/gif">	
+								<input type="file" name="foodurl" id="foodurl" value="Upload Image" onchange="preview(this)" accept="image/x-png, image/jpg, image/jpeg, image/gif">	
 							    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Confirm"/>
 							</p>
 						</form>
