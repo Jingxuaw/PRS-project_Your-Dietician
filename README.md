@@ -6,7 +6,7 @@ The project includes BMI Calculation, Calorie Bank, Food Image Recognition, and 
 
 All the functions are programmed based on Python and presented on a HTML page
 
-The recipe dataset was get from Kaggle: https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions
+The recipe dataset was get from Kaggle open source dataset: https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions
 
 The food image dataset was get from food-101：http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz 
 ## Team Members
