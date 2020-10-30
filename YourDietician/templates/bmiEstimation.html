@@ -60,7 +60,7 @@
 								<p>Upload your face image. One image only for one time.</p>
 								<form action="{{ url_for('bmiEstimationbyModel') }}" method="post" enctype="multipart/form-data" onsubmit="return check();">
 									<p>
-										<input type="file" name="faceurl" id="faceurl" value="Upload Image" onchange="preview(this)"  multiple="multiple" accept="image/x-png, image/jpg, image/jpeg, image/gif">	
+										<input type="file" name="faceurl" id="faceurl" value="Upload Image" onchange="preview(this)" accept="image/x-png, image/jpg, image/jpeg, image/gif">	
 									    &nbsp;&nbsp;&nbsp;<input type="submit" value="Confirm"/>
 									</p>
 								</form>
