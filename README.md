@@ -27,15 +27,15 @@ The food image dataset was get from food-101：http://data.vision.ee.ethz.ch/cvl
 #### Libraries:
 
 pip install ...
-* tensorflow                         2.3.1
-* matplotlib                         3.2.2
-* numpy                              1.17.0
+* tensorflow==2.3.1
+* matplotlib==3.2.2
+* numpy==1.17.0
 * flask
-* easygui                            0.98.1
-* pandas                             1.0.5
-* joblib                             0.16.0
-* seaborn                            0.10.1
-* sklearn                            0.0
+* easygui==0.98.1
+* pandas==1.0.5
+* joblib==0.16.0
+* seaborn==0.10.1
+* sklearn==0.0
 
 * for face_recognition libaray, first pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl. Then pip install face_recognition.
 
