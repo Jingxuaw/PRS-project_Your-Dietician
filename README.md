@@ -41,7 +41,7 @@ pip install ...
 
 
 # Instructions & Functions display
-* Unzip the 50000.csv file in YourDietician folder.
+* Unzip the 50000.7z file in YourDietician folder.
 
 * Download the link from YourDietician-->food_image_recognition.txt.
 (https://drive.google.com/file/d/1-5ZW1bB1vHuD82IJeVmqykXuMQQUE__q/view?usp=sharing). Place it into the YourDietician folder (It should be placed under the same diretory as main.py).
