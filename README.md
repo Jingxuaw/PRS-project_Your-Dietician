@@ -30,7 +30,7 @@ pip install ...
 * tensorflow==2.3.1
 * matplotlib==3.2.2
 * numpy==1.17.0
-* flask
+* flask==1.1.2
 * easygui==0.98.1
 * pandas==1.0.5
 * joblib==0.16.0
