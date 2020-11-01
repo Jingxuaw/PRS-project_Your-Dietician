@@ -10,7 +10,7 @@ The recipe dataset was get from Kaggle open source dataset: https://www.kaggle.c
 
 The food image dataset was get from food-101：http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz 
 
-# [Introduction Video](https://www.youtube.com/watch?v=CjpwO9h5Jxo&feature=youtu.be)
+## [Introduction Video](https://www.youtube.com/watch?v=CjpwO9h5Jxo&feature=youtu.be)
 
 ## Team Members
 
