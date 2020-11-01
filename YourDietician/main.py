@@ -1,6 +1,5 @@
 from tensorflow.keras.models import load_model
 model_best = load_model('food_image_recognition.hdf5',compile=False)
-#food_list=['apple_pie', 'baby_back_ribs', 'baklava', 'beef_carpaccio', 'beef_tartare', 'beet_salad', 'beignets', 'bibimbap', 'bread_pudding', 'breakfast_burrito', 'bruschetta', 'caesar_salad', 'cannoli', 'caprese_salad', 'carrot_cake', 'ceviche', 'cheese_plate', 'cheesecake', 'chicken_curry', 'chicken_quesadilla', 'chicken_wings', 'chocolate_cake', 'chocolate_mousse', 'churros', 'clam_chowder', 'club_sandwich', 'crab_cakes', 'creme_brulee', 'croque_madame', 'cup_cakes', 'deviled_eggs', 'donuts', 'dumplings', 'edamame', 'eggs_benedict', 'escargots', 'falafel', 'filet_mignon', 'fish_and_chips', 'foie_gras', 'french_fries', 'french_onion_soup', 'french_toast', 'fried_calamari', 'fried_rice', 'frozen_yogurt', 'garlic_bread', 'gnocchi', 'greek_salad', 'grilled_cheese_sandwich', 'grilled_salmon', 'guacamole', 'gyoza', 'hamburger', 'hot_and_sour_soup', 'hot_dog', 'huevos_rancheros', 'hummus', 'ice_cream', 'lasagna', 'lobster_bisque', 'lobster_roll_sandwich', 'macaroni_and_cheese', 'macarons', 'miso_soup', 'mussels', 'nachos', 'omelette', 'onion_rings', 'oysters', 'pad_thai', 'paella', 'pancakes', 'panna_cotta', 'peking_duck', 'pho', 'pizza', 'pork_chop', 'poutine', 'prime_rib', 'pulled_pork_sandwich', 'ramen', 'ravioli', 'red_velvet_cake', 'risotto', 'samosa', 'sashimi', 'scallops', 'seaweed_salad', 'shrimp_and_grits', 'spaghetti_bolognese', 'spaghetti_carbonara', 'spring_rolls', 'steak', 'strawberry_shortcake', 'sushi', 'tacos', 'takoyaki', 'tiramisu', 'tuna_tartare', 'waffles']
 food_list=['Apple Pie', 'Baby Back Ribs', 'Baklava', 'Beef Carpaccio', 'Beef Tartare', 'Beet Salad', 'Beignets', 'Bibimbap', 'Bread Pudding', 'Breakfast Burrito', 'Bruschetta', 'Caesar Salad', 'Cannoli', 'Caprese Salad', 'Carrot Cake', 'Ceviche', 'Cheese Plate', 'Cheesecake', 'Chicken Curry', 'Chicken Quesadilla', 'Chicken Wings', 'Chocolate Cake', 'Chocolate Mousse', 'Churros', 'Clam Chowder', 'Club Sandwich', 'Crab Cakes', 'Creme Brulee', 'Croque Madame', 'Cup Cakes', 'Deviled Eggs', 'Donuts', 'Dumplings', 'Edamame', 'Eggs Benedict', 'Escargots', 'Falafel', 'Filet Mignon', 'Fish and Chips', 'Foie Gras', 'French Fries', 'French Onion Soup', 'French Toast', 'Fried Calamari', 'Fried Rice', 'Frozen Yogurt', 'Garlic Bread', 'Gnocchi', 'Greek Salad', 'Grilled Cheese Sandwich', 'Grilled Salmon', 'Guacamole', 'Gyoza', 'Hamburger', 'Hot and Sour Soup', 'Hot Dog', 'Huevos Rancheros', 'Hummus', 'Ice Cream', 'Lasagna', 'Lobster Bisque', 'Lobster Roll Sandwich', 'Macaroni and Cheese', 'Macarons', 'Miso Soup', 'Mussels', 'Nachos', 'Omelette', 'Onion Rings', 'Oysters', 'Pad Thai', 'Paella', 'Pancakes', 'Panna Cotta', 'Peking Duck', 'Pho', 'Pizza', 'Pork Chop', 'Poutine', 'Prime Rib', 'Pulled Pork Sandwich', 'Ramen', 'Ravioli', 'Red Velvet Cake', 'Risotto', 'Samosa', 'Sashimi', 'Scallops', 'Seaweed Salad', 'Shrimp and Grits', 'Spaghetti Bolognese', 'Spaghetti Carbonara', 'Spring Rolls', 'Steak', 'Strawberry Shortcake', 'Sushi', 'Tacos', 'Takoyaki', 'Tiramisu', 'Tuna Tartare', 'Waffles']
 food_calorie_list=[368,216,298,125,125,97,350,173,161,316,389,72,316,82,345,160,300,349,197,80,194,397,331,417,90,224,266,161,227,240,203,350,124,123,100,60,116,95,176,129,298,57,228,185,188,185,281,152,83,218,137,161,124,456,16,250,209,47,127,317,90,222,360,350,20,122,365,209,476,57,173,156,250,282,436,146,235,278,461,280,220,221,264,195,260,181,44,264,68,59,161,350,280,280,198,200,218,127,248,99,574]
 food_list.sort()
@@ -14,14 +13,13 @@ from flask import request
 from flask import  Flask,render_template  #导入render_template模块
 app=Flask(__name__)
 
-
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 @app.route('/')
 def index():    
-    return render_template("index.html")   #调用render_template函数，传入html文件参数
+    return render_template("index.html")
 	
-@app.route('/calorieBank')   #增加一个calorieBank页面
+@app.route('/calorieBank')
 def calorieBank():
     return render_template("calorieBank.html")
 
@@ -54,16 +52,12 @@ def foodImageRecognitionbyModel():
 def foodImageRecognition():
 	return render_template("foodImageRecognition.html")
 	
-
 @app.route('/bmiEstimation')
 def bmiEstimation():
 	return render_template("bmiEstimation.html")
 	
-	
-
 from easygui import multchoicebox, msgbox
 import pandas as pd
-
 
 def  messageBox():
 	# message to be displayed
@@ -140,13 +134,11 @@ def re():
 		return render_template("recipeData.html")
 
 
-
-
-
+# The below directory should be modified based on where you save this project.
 df = pd.read_csv(r'E:\YourDietician\50000.csv', encoding='ISO-8859-1')
 	
 def rnd_select(a):
-    df = pd.read_csv(r'E:\YourDietician\50000.csv', encoding='ISO-8859-1')
+    df = pd.read_csv(r'E:\YourDietician\50000.csv', encoding='ISO-8859-1') 
     b1 = []
     b2 = []
     b3 = []
@@ -158,7 +150,6 @@ def rnd_select(a):
             b1.append(a1)
             b2.append(a2)
             b3.append(a3)
-	
 	
     f1 = pd.DataFrame(columns=['name', 'ingredients', 'steps'])
 
@@ -172,10 +163,7 @@ def rnd_select(a):
 	
     return result
 
-
-
 import joblib
-# from sklearn.externals import joblib
 import face_recognition
 def get_face_encoding(image_path):
     print(image_path)
@@ -210,11 +198,9 @@ def bmiEstimationbyModel():
 	bmi = np.asscalar(np.exp(bmi_model.predict(test_array)))
 	return render_template("bmiEstimation.html", file_path=file_path, pred_height=height, pred_weight=weight, pred_bmi=bmi)
 	
-	
 @app.route('/foodSelection')
 def foodSelection():
 	return render_template("foodSelection.html")
-	
 
 import seaborn as sns
 from sklearn import svm
